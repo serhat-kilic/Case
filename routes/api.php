@@ -34,6 +34,7 @@ Route::controller(EmployeController::class)->prefix('employees')->middleware('au
     Route::get('get/{id}','employee');
     Route::put('edit/{id}','edit');
     Route::delete('delete/{id}','delete');
+    Route::delete('delete-employee-car/{id}','deleteEmployeeCar');
 });
 
 Route::controller(CarController::class)->prefix('cars')->middleware('auth:api')->group(function (){

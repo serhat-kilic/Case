@@ -16,6 +16,7 @@
                         <th>Plate</th>
                         <th>Employee Name Surname</th>
                         <th>Employee Email</th>
+                        <th>Action</th>
                     </tr>
                     </thead>
                     <tfoot>
@@ -25,6 +26,7 @@
                         <th>Plate</th>
                         <th>Employee Name Surname</th>
                         <th>Employee Email</th>
+                        <th>Action</th>
                     </tr>
                     </tfoot>
                 </table>
@@ -52,7 +54,8 @@
                         var data = response.data;
                         $.each(data, function (i, item) {
 
-                            mytable.rows.add([[item.brand, item.model, item.plate,  item.employee.name+" "+item.employee.surname,item.employee.email]]);
+                            var html='<button class="btn btn-danger" data-action="delete" data-id="'+item.id+'"> Delete Car Embezzlement </button>'
+                            mytable.rows.add([[item.brand, item.model, item.plate,  item.employee.name+" "+item.employee.surname,item.employee.email,html]]);
                         })
                         mytable.draw();
                     }
@@ -63,7 +66,7 @@
 
             $('body').on('click','button[data-action="delete"]', function () {
                 $.ajax({
-                    url: '/api/cars/delete/'+$(this).data('id'),
+                    url: '/api/employees/delete-employee-car/'+$(this).data('id'),
                     type:"DELETE",
                     datatype: "json",
                     contentType: "application/json; charset=utf-8",

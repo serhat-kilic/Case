@@ -106,4 +106,13 @@ class EmployeController extends BaseController
         return $this->responseMessage('success','',$cars);
 
     }
+
+    public function deleteEmployeeCar($id){
+        $employee=Employee::find($id);
+        if($employee->car){
+            $employee->car->update(['employee_id'=>null]);
+        }
+        return $this->responseMessage('success','Transaction successful');
+
+    }
 }

@@ -51,4 +51,4 @@
 
 
 ## Postman Collection
-Click to reach the <a href="https://www.postman.com/collections/2c2e2c8d57652cfaac8b">Postman Collection</a>
+Click to reach the <a href="https://www.getpostman.com/collections/2c2e2c8d57652cfaac8b">Postman Collection</a>

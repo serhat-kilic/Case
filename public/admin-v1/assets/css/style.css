@@ -1,0 +1,306 @@
+/*================================================================================
+	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.btn-group ul {
+    display: flex;
+    list-style: none;
+}
+
+.dd-dragel .dd-item .dd3-handle:before, .dd .dd-item .dd3-handle:before {
+    content: "open_with";
+    font-family: 'Material Icons';
+    text-indent: 0;
+}
+.dd-dragel .dd-item, .dd .dd-item {
+    position: relative;
+}
+.dd-dragel .dd-item.dd3-item, .dd .dd-item.dd3-item {
+    padding-left: 20px;
+    margin: 5px 0;
+}
+.dd-dragel .dd-item .dd3-handle, .dd .dd-item .dd3-handle {
+    background: #eee;
+    height: auto;
+    width: 22px;
+    line-height: 22px;
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.dd-dragel .dd-item>div, .dd-dragel .dd-item .dd-handle, .dd .dd-item>div, .dd .dd-item .dd-handle {
+    font-weight: normal;
+    font-size: 0.875rem;
+    color: black;
+    border: 0.0625rem solid #bbb;
+    padding: 0;
+    line-height: 25px;
+    background: #fff;
+    overflow-wrap: normal;
+}
+.dd-list .dd3-content span {
+    width: calc(100% - 36px)!important;
+    display: block;
+}
+
+.bootstrap-tagsinput {
+    display: block;
+    min-height: 40.5px;
+}
+.bootstrap-tagsinput .tag {
+    margin-right: 2px;
+    color: white;
+    background: #4c0089;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.form-check{
+    padding-left: 0;
+}
+.form-check input{
+    width: 40px;
+}
+.table .passive {
+    background: #fc00212e;
+}
+.dashboard-forms .widget-holder .widget-bg{
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+}
+.dashboard-forms .widget-heading {
+    font-size: 25px;
+    font-weight: 700;
+    border-bottom: 1px solid;
+}
+.dashboard-forms .widget-heading a {
+    color: #8000cc;
+}
+.dashboard-forms .widget-body {
+    padding-top: 10px;
+}
+.nav-item .plus {
+    position: relative;
+    width: 120%;
+}
+.nav-item .plus:before {
+    content: "\f067";
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "FontAwesome";
+    height: 100%;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+.counter-w-info {
+    display: flex;
+    align-items: center;
+}
+.dashboard-forms .counter-title.color-color-scheme {
+    font-weight: 700;
+    padding-right: 15px;
+}
+.dashboard-forms .badge {
+    font-weight: 400;
+    background-color: #666ee8;
+    padding: 10px;
+}
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.dd3-content .btn-group, .dd3-content .btn-group-vertical {
+    margin-top: 0!important;
+    margin-right: 0!important;
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+
+.btn-group>.btn, .btn-group-vertical>.btn {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    margin-bottom: 0;
+}
+
+.dd3-content .btn {
+    padding: 3px;
+}
+
+.btn-group>.btn:first-child {
+    margin-left: 0;
+}
+
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.dd3-content {
+    padding: 0 5px!important;
+    min-height: 28px;
+}
+img{
+    width: 100%;
+}
+.blank-page img{
+    width: auto;
+}
+.form-check{
+    display: flex;
+    align-items: center;
+}
+.form-check-input {
+    position: relative;
+    margin-right: 10px!important;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #e4e7ed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logs table.diff tbody tr td:nth-child(2) {
+    width: 4%;
+}
+.logs table.diff {
+    border-collapse: separate;
+    border-spacing: 2px;
+    table-layout: fixed;
+    width: 100%;
+    white-space: pre-wrap;
+}
+.logs table.diff col.content {
+    width: auto;
+}
+.logs table.diff col.ltype {
+    width: 30px;
+}
+.logs table.diff tr {
+    background-color: transparent;
+}
+.logs table.diff td, .logs table.diff th {
+    font-family: Consolas, Monaco, monospace;
+    font-size: 14px;
+    line-height: 1.618;
+    padding: .5em;
+    vertical-align: top;
+    word-wrap: break-word;
+}
+.logs table.diff td h1, .logs table.diff td h2, .logs table.diff td h3, .logs table.diff td h4, .logs table.diff td h5, .logs table.diff td h6 {
+    margin: 0;
+}
+.logs table.diff .diff-addedline ins, .logs table.diff .diff-deletedline del {
+    text-decoration: none;
+}
+.logs table.diff .diff-deletedline {
+    background-color: #ffe9e9;
+}
+.logs table.diff .diff-deletedline del {
+    background-color: #faa;
+}
+.logs table.diff .diff-addedline {
+    background-color: #e9ffe9;
+}
+.logs table.diff .diff-addedline ins {
+    background-color: #afa;
+}
+#top-setting .form-inline label {
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    margin-bottom: 0;
+    width: 100%;
+    left: 0;
+}
+#top-setting .form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    margin: 10px 10px 10px 0;
+}
+.islem{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    left: 0;
+    visibility: hidden;
+    transition: .5s all;
+}
+.islem.active {
+    visibility: visible;
+    background: #8080807a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+.dd-list .dd-list {
+    padding-left: 0!important;
+}
+.menu-holder #accordion-5 .card{
+    margin-bottom: .75rem;
+}
+.menu-holder #accordion-5  .card-collapse table a {
+    padding: 0;
+}
+.menu-holder #accordion-5  .card-collapse table .btn {
+    padding: .7rem;
+    color: white;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    white-space: nowrap;
+}
+#accordion-dynamic .card , #accordion-manual .card,#accordion-video .card{
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+#accordion-dynamic .card .card-header, #accordion-manual .card  .card-header,#accordion-video .card  .card-header{
+    padding: 0;
+}
+#accordion-dynamic .card .card-header a,#accordion-manual .card  .card-header a,#accordion-video .card  .card-header a{
+    padding: 10px;
+    display: block;
+}
+#accordion-dynamic .card .card-header a h5{
+}
+#accordion-dynamic .card .card-header,#accordion-manual .card  .card-header ,#accordion-video .card  .card-header {
+    border-bottom: 1px solid;
+}
+.form-group label{
+    font-weight: 700;
+}
+#accordion-dynamic .form-group label,#accordion-manual .form-group label,#accordion-video .form-group label{
+    padding: 0;
+}
+.btn-default {
+    background: #666ee8;
+    color: white!important;
+}

@@ -27,16 +27,17 @@
 
 ### Employees endpoints
 
-| Method | URI                       | Description            |
-|--------|---------------------------|------------------------|
-| POST   | /api/employees/create     | Add a new car          |
-| GET    | /api/employees/list       | Get all cars           |
-| GET    | /api/employees/get/:id    | Get a car by id        |
-| GET    | /api/employees/search     | Search car             |
-| GET    | /api/employees/cars       | Employee's Cars        |
-| POST   | /api/employees/give-car   | Assign car to employee |
-| DELETE | /api/employees/delete/:id | Delete a car           |
-| PUT    | /api/employees/edit/:id   | Edit car             |
+| Method | URI                                    | Description            |
+|--------|----------------------------------------|------------------------|
+| POST   | /api/employees/create                  | Add a new employee     |
+| GET    | /api/employees/list                    | Get all employee       |
+| GET    | /api/employees/get/:id                 | Get an employee by id  |
+| GET    | /api/employees/search                  | Search employee        |
+| GET    | /api/employees/cars                    | Employee's Cars        |
+| POST   | /api/employees/give-car                | Assign car to employee |
+| DELETE | /api/employees/delete/:id              | Delete employee        |
+| DELETE | /api/employees/delete-employee-car/:id | Delete employee's car  |
+| PUT    | /api/employees/edit/:id                | Edit employee          |
 
 
 ### Cars endpoints
@@ -52,3 +53,11 @@
 
 ## Postman Collection
 Click to reach the <a href="https://www.getpostman.com/collections/2c2e2c8d57652cfaac8b">Postman Collection</a>
+
+## Web interface
+
+<p>To enter the web interface, you can authorize and enter from the url below.</p>
+
+<p><strong>url:</strong> /login </p>
+<p><strong>user email:</strong> kilicserhat92@gmail.com</p>
+<p><strong>user password:</strong> secret</p>
